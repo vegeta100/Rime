@@ -1,0 +1,6 @@
+patch:
+  "punctuator/import_preset": symbols
+  "recognizer/patterns/punct": "^/([a-z]+|[0-9])$"
+  "key_binder/bindings":
+    - { when: always, accept: Release+Escape, toggle: ascii_mode}
+    - {accept: "Shift+space", toggle: simplification, when: always}
