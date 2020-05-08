@@ -7,5 +7,13 @@ customization:
   rime_version: 1.5.3
 
 patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Shift_L: commit_code
+    Shift_R: inline_ascii
+  "menu/page_size": 5
   schema_list:
     - {schema: terra_pinyin}
+  "switcher/hotkeys":
+    - "Control+q"
+    - "Control+Q"
