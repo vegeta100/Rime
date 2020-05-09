@@ -235,5 +235,6 @@ punctuator:
     '/input': [ input keyevent KEYCODE_DPAD_UP, input keyevent KEYCODE_DPAD_DOWN, input keyevent KEYCODE_DPAD_LEFT, input keyevent KEYCODE_DPAD_RIGHT,
     input keyevent KEYCODE_ENTER,input keyevent KEYCODE_BACK,input keyevent KEYCODE_DPAD_CENTER]
     '/get': [getevent,getprop | grep]
-    '/adb': [ adb devices,adb root,adb remount,adb install,adb kill-server , adb start-server]
-    '/adb_install' : [ adb shell]
+    '/adb': [ adb devices,adb root,adb remount,adb kill-server , adb start-server,adb pull,adb push,adb shell]
+    '/screen': [screencap -p /photos/1.png]
+    '/cmd': [input,get,adb,screen]
